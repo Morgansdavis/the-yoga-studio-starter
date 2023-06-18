@@ -1,8 +1,8 @@
 <div class="grid grid-cols-2">
     <div class="col-span-1">
-        <h2> Duis Aute Irure </h2>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus molestias recusandae at iusto hic rerum. Qui dolore harum amet eligendi tempore, in ab, vel praesentium rem mollitia modi blanditiis accusantium! </p>
-        <a href="/" class="button"> Sign Up </a>
+        <h2> {{ page.image_text.heading }} </h2>
+        <p> {{ page.image_text.description }} </p>
+        <a href="{{ page.image_text.button_url }} " class="button"> {{ page.image_text.button_text }} </a>
     </div>
-    <div class="col-span-1 bg-cover min-h-60" style="background-image: url('{{page.feature-image-1}}')"> </div>
+    <div class="col-span-1 bg-cover min-h-60" style="background-image: url('{{page.image_text.image}}')"> </div>
 </div>

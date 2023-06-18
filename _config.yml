@@ -1,3 +1,6 @@
+#restart jekyll after editing config 
 collections:
   classes:
+    output: false
+  teachers:
     output: false

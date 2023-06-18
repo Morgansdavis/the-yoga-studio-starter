@@ -1,0 +1,13 @@
+<div class="grid grid-cols-3">
+    <div class="col-span-1">
+        <h2> Teachers </h2>
+    </div>
+
+    {% for teacher in site.teachers %}
+    <div>
+        <img src="{{ teacher.image }}">
+        <h2> {{ teacher.title }} </h2>
+        <p> {{ teacher.description }} </p>
+    </div>
+    {% endfor %}
+</div>

@@ -1,0 +1,18 @@
+<div class="grid grid-cols-2">
+    <div class="col-span-1 bg-cover min-h-60" style="background-image: url('{{page.image_grid.image}}')"> 
+        <h2> {{ page.image_grid.heading }} </h2>
+        <p> {{ page.image_grid.description }} </p>
+        <a href="{{ page.image_text.button_url }} " class="button"> {{ page.image_grid.button_text }} </a>
+    </div>
+    <div class="col-span-1">
+        {% for class in site.classes %}
+        <div class="grid-cols-2">
+            <div> 
+                <h2> {{ class.title }} </h2>
+                <p> {{ class.description }} </p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    
+</div>
