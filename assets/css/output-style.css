@@ -461,20 +461,20 @@ p {
 .grid {
   display: grid;
 }
-.min-h-90 {
-  min-height: 90vh;
-}
 .min-h-60 {
   min-height: 60vh;
 }
-.grid-cols-5 {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+.min-h-90 {
+  min-height: 90vh;
 }
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 .items-center {
   align-items: center;
@@ -498,9 +498,6 @@ p {
 }
 .p-8 {
   padding: 2rem;
-}
-.pt-5 {
-  padding-top: 1.25rem;
 }
 .text-white {
   --tw-text-opacity: 1;

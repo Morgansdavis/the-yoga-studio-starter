@@ -1,6 +1,6 @@
 ---
 layout: teacher-page
-title: Sally H 
+title: Molly T
 description: This is a short description of the teacher 
 image: 'https://placekitten.com/900/600'
 seo: 
