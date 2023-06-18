@@ -33,6 +33,10 @@
 
 @layer base {
 
+    body {
+        @apply font-paragraph text-pumpkin;
+    }
+
     h1, h2, h3, h4  {
         @apply font-heading mb-[0.5em];
     }
@@ -40,9 +44,11 @@
     h1 {
         @apply text-3xl leading-tight;
     }
+
     h2 {
         @apply text-2xl leading-tight;
     }
+
     h3 {
         @apply text-xl leading-tight;
     }
@@ -50,18 +56,22 @@
     h3 {
         @apply text-lg leading-tight;
     }
+
     h4 {
         @apply text-lg leading-tight;
+    }
+
+    h5 {
+        @apply font-subheading; 
     }
 
     p {
         @apply mb-[0.5em] leading-normal;
     }
 
-    body {
-        @apply font-paragraph;
+    button {
+        @apply bg-pumpkin text-creme p-5p;
     }
-
   }
 
 

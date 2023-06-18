@@ -310,6 +310,11 @@ video {
 [hidden] {
   display: none;
 }
+body {
+  font-family: Montserrat, sans-serif;
+  --tw-text-opacity: 1;
+  color: rgb(201 115 36 / var(--tw-text-opacity));
+}
 h1, h2, h3, h4 {
   margin-bottom: 0.5em;
   font-family: Oranienbaum, serif;
@@ -334,12 +339,19 @@ h4 {
   line-height: 1.75rem;
   line-height: 1.25;
 }
+h5 {
+  font-family: Poppins, sans-serif;
+}
 p {
   margin-bottom: 0.5em;
   line-height: 1.5;
 }
-body {
-  font-family: Montserrat, sans-serif;
+button {
+  --tw-bg-opacity: 1;
+  background-color: rgb(201 115 36 / var(--tw-bg-opacity));
+  padding: 5%;
+  --tw-text-opacity: 1;
+  color: rgb(251 242 233 / var(--tw-text-opacity));
 }
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
@@ -481,6 +493,10 @@ body {
 }
 .items-center {
   align-items: center;
+}
+.bg-pumpkin {
+  --tw-bg-opacity: 1;
+  background-color: rgb(201 115 36 / var(--tw-bg-opacity));
 }
 .bg-stone-100 {
   --tw-bg-opacity: 1;
