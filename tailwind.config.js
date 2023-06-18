@@ -8,10 +8,15 @@ module.exports = {
     ],
     theme: {
       fontFamily: {
-        sans: ['Montserrat', 'sans-serif'],
-        serif: ['Italiana', 'serif'],
+        heading: ['Oranienbaum', 'serif',]
+        subheading: ['Poppins', 'sans-serif']
+        paragraph: ['Montserrat', 'sans-serif';]
       },
       extend: {
+        colors: {
+          pumpkin: "#C97324",
+          creme: "#FBF2E9", 
+          },
         spacing: {
           '5p': '5%',
           '10p': '10%',
