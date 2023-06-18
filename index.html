@@ -2,10 +2,6 @@
 layout: default 
 title: The Yoga Studio
 banner:
-  background-position: bg-center
-  banner-height: min-h-90
-  text-position: items-center
-  text-color: text-white
   banner-image: "/yoga-studio-images/yoga-studio (1).jpg"
   small-heading: Welcome to
   heading: The yoga studio
@@ -15,12 +11,14 @@ image_text:
   button_text: sign up
   button_url: "#"
   image: "/yoga-studio-images/yoga-studio (2).jpg"
+  image_focus: center 20%
 image_grid:
-  image: "/yoga-studio-images/yoga-studio (3).jpg"
   heading: Duis Aute Irure
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem quasi eum quaerat architecto quos asperiores nostrum sequi, facere possimus blanditiis minima laborum nesciunt vitae magni culpa, eos ducimus. Ipsam?
   button_text: find out more
   button_url: "/classes"
+  image: "/yoga-studio-images/yoga-studio (3).jpg"
+  image_focus: center 40%
 seo: 
   title: The Yoga Studio in Canguu, Bali
   description: 
@@ -33,12 +31,10 @@ seo:
 {% include full-banner.html %}
 
 
-<!--------- This is the Duis Aute section  ---------------->
 <section>
     {% include image-text.html %}  
-</section>
-
 <section>
+
     {% include image-grid.html %}  
 </section>
 

@@ -34,43 +34,39 @@
 @layer base {
 
     body {
-        @apply font-paragraph text-pumpkin;
+        @apply bg-creme font-paragraph text-pumpkin text-base;
     }
 
     h1, h2, h3, h4  {
-        @apply font-heading mb-[0.5em];
+        @apply font-heading mb-5;
     }
 
     h1 {
-        @apply text-3xl leading-tight;
+        @apply text-6xl md:text-8xl leading-tight;
     }
 
     h2 {
-        @apply text-2xl leading-tight;
+        @apply text-3xl leading-tight;
     }
 
     h3 {
-        @apply text-xl leading-tight;
+        @apply text-3xl leading-tight;
     }
 
     h3 {
-        @apply text-lg leading-tight;
+        @apply text-3xl leading-tight;
     }
 
     h4 {
-        @apply text-lg leading-tight;
+        @apply text-3xl leading-tight;
     }
 
     h5 {
-        @apply font-subheading; 
+        @apply font-subheading text-base; 
     }
 
     p {
-        @apply mb-[0.5em] leading-normal;
-    }
-
-    button {
-        @apply bg-pumpkin text-creme p-5p;
+        @apply mb-5 leading-normal text-base;
     }
   }
 
@@ -84,7 +80,10 @@
     }
 
     .button  {
-        @apply inline-block px-4 py-2 uppercase tracking-wide bg-zinc-800 text-white ;
+        @apply inline-block px-4 py-2 uppercase tracking-wide bg-pumpkin text-white;
     }
     
+    .bg-image {
+        @apply bg-cover bg-center bg-no-repeat;
+    }
 }
