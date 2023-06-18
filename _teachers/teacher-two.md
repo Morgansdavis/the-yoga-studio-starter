@@ -2,7 +2,7 @@
 layout: teacher-page
 title: Suzy Q 
 description: This is a short description of the teacher 
-image: 'https://placekitten.com/900/600'
+image: "/yoga-studio-images/yoga-studio (5).jpg"
 seo: 
  title: Suzy Q 
  description: 

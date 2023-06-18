@@ -2,7 +2,7 @@
 layout: class
 title: Bikram Hot Yoga
 description: This is a short description of the first blog post
-featured_image: 'https://placekitten.com/900/600'
+featured_image: "/yoga-studio-images/yoga-studio (8).jpg"
 seo: 
  title: Bikram Hot Yoga
  description: 

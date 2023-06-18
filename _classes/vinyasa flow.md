@@ -2,7 +2,7 @@
 layout: class
 title: Vinyasa Flow
 description: This is a short description of the first blog post
-featured_image: 'https://placekitten.com/900/600'
+featured_image: "/yoga-studio-images/yoga-studio (9).jpg"
 seo: 
  title: Vinyasa Flow
  description: 
