@@ -1,18 +1,16 @@
 <div class="grid sm:grid-cols-2 sm:min-h-80">
-    <div class="bg-image grid items-end" style="background-position: {{page.image_grid.image_focus}}; background-image: url('{{page.image_grid.image}}')"> 
+    <div class="bg-image grid items-end border-t border-pumpkin" style="background-position: {{page.image_grid.image_focus}};background-image: url('{{page.image_grid.image}}')"> 
         <div class="px-10p py-20 max-w-xl"> 
-            <h2> {{ page.image_grid.heading }} </h2>
-            <p> {{ page.image_grid.description }} </p>
+            <h2 class="text-creme"> {{ page.image_grid.heading }} </h2>
+            <p class="text-creme"> {{ page.image_grid.description }} </p>
             <a href="{{ page.image_text.button_url }} " class="button"> {{ page.image_grid.button_text }} </a>
         </div>
     </div>
-    <div class="col-span-1 p-5p">
+    <div class="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-2 divide-x divide-y divide-pumpkin overflow-clip border border-pumpkin">
         {% for class in site.classes %}
-        <div class="grid-cols-2">
-            <div> 
-                <h2> {{ class.title }} </h2>
-                <p> {{ class.description }} </p>
-            </div>
+        <div class="p-6 flex flex-col justify-end -m-px"> 
+            <h2> {{ class.title }} </h2>
+            <p> {{ class.description }} </p>
         </div>
         {% endfor %}
     </div>

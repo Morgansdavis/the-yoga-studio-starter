@@ -1,8 +1,8 @@
-<div class="grid sm:grid-cols-2 sm:min-h-80">
+<div class="grid sm:grid-cols-2 sm:min-h-80 border-t border-pumpkin">
     <div class="px-10p py-20 self-end max-w-xl">
         <h2 class="mb-6"> {{ page.image_text.heading }} </h2>
         <p> {{ page.image_text.description }} </p>
         <a href="{{ page.image_text.button_url }} " class="button"> {{ page.image_text.button_text }} </a>
     </div>
-    <div class="bg-image min-h-60" style="background-position: {{page.image_text.image_focus}};background-image: url('{{page.image_text.image}}')"> </div>
+    <div class="bg-image min-h-60 border-l border-pumpkin" style="background-position: {{page.image_text.image_focus}};background-image: url('{{page.image_text.image}}')"> </div>
 </div>
