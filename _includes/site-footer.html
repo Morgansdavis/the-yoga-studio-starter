@@ -1,28 +1,24 @@
-<footer class="p-5p bg-pumpkin text-creme"> 
-    <div class="grid grid-cols-5"> 
-        <nav>
-            <div class="col-span-1"> 
-            <a href="/classes.html"> Our Classes </a>
-            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
-            </div>
-
-            <div class="col-span-1"> 
-            <a href="/schedule.html"> Schedule </a>
-            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
-            </div>
-
-            <div class="col-span-1"> 
-            <a href="/contact.html"> Contact </a>
-            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
-            </div>
-        </nav>
-
-        <div class="col-span-2">
-            <form> 
-                <label for="email"> subscribe to our newsletter </label>
-                <input type="email" id="email" name="email">
-                <input class="button" type="submit" value="Submit">
-            </form>
+<footer class="bg-pumpkin text-creme"> 
+    <nav class="uppercase p-5p grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 justify-between items-center gap-8">
+        <div> 
+            <a href="/classes.html" class="font-heading text-xl"> Our Classes </a>
+            <p class="mt-6 sub-heading text-base"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
         </div>
-    </div>
+
+        <div> 
+            <a href="/schedule.html" class="font-heading text-xl"> Schedule </a>
+            <p class="mt-6 sub-heading text-base"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+
+        <div> 
+            <a href="/contact.html" class="font-heading text-xl"> Contact </a>
+            <p class="mt-6 sub-heading text-base"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+
+        <form class="col-span-2 grid md:text-right gap-6"> 
+            <label for="email" class="font-heading text-xl"> subscribe to our newsletter </label>
+            <input type="email" id="email" name="email" class="max-w-sm w-full md:ml-auto bg-transparent border border-creme p-2 outline-white">
+            <div><input class="button bg-creme text-pumpkin border border-creme hover:text-white hover:bg-pumpkin" type="submit" value="Submit"> </div>
+        </form>
+    </nav>
 </footer> 

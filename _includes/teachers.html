@@ -1,14 +1,15 @@
-<div class="p-5p">
+<div class="p-10p">
     <div class="col-span-1">
         <h2> Teachers </h2>
     </div>
     
-    <div class="grid-cols-3">
+    <div class="grid sm:grid-cols-3 gap-6">
         {% for teacher in site.teachers %}
-        <div class="col-span-1">
-            <img src="{{ teacher.image }}">
-            <h2> {{ teacher.title }} </h2>
-            <p> {{ teacher.description }} </p>
+        <div class="max-w-xs sm:max-w-none">
+            <div class="bg-image aspect-square border border-pumpkin" style="background-image: url('{{ teacher.image }}');"> 
+            </div>
+            <h3 class="p-5p text-center border-b border-pumpkin"> {{ teacher.title }} </h3>
+            <p class="text-center"> {{ teacher.description }} </p>
         </div>
         {% endfor %}
     </div>
