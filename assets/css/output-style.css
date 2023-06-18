@@ -436,8 +436,29 @@ p {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.col-span-1 {
+  grid-column: span 1 / span 1;
+}
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
 .block {
   display: block;
+}
+.inline-block {
+  display: inline-block;
+}
+.grid {
+  display: grid;
+}
+.min-h-90 {
+  min-height: 90vh;
+}
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+.items-center {
+  align-items: center;
 }
 .bg-stone-100 {
   --tw-bg-opacity: 1;
@@ -451,8 +472,18 @@ p {
   --tw-bg-opacity: 1;
   background-color: rgb(250 204 21 / var(--tw-bg-opacity));
 }
+.bg-center {
+  background-position: center;
+}
 .p-8 {
   padding: 2rem;
+}
+.p-5p {
+  padding: 5%;
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 
