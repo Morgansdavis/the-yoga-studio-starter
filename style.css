@@ -6,6 +6,31 @@
 
 /* ----------- Default Styles to apply to the whole project  --------- */
 
+/*--------- css styles and typography 
+    Gold: #c97324 
+    creme: #fbf2e9 
+    
+
+    Oranienbaum
+    Heading - Size 100 with negative 5% letter
+    spacing
+
+    Oranienbaum
+    Sub heading - Size 32
+
+    POPPINS
+    Subheading (2) - Size 16 with negative
+    3.5% letter spacing & 150% line spacing -
+    CAPITALISED
+
+    Montserrat
+    Paragraph - Size 16 with negative 3.5%
+    letter spacing & 150% line spacing
+    
+    
+--------- */
+
+
 @layer base {
 
     h1, h2, h3, h4  {
