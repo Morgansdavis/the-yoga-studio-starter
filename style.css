@@ -34,7 +34,7 @@
 @layer base {
 
     h1, h2, h3, h4  {
-        @apply font-serif mb-[0.5em];
+        @apply font-heading mb-[0.5em];
     }
 
     h1 {
@@ -56,6 +56,10 @@
 
     p {
         @apply mb-[0.5em] leading-normal;
+    }
+
+    body {
+        @apply font-paragraph;
     }
 
   }

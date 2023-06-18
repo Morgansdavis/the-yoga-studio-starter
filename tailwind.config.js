@@ -8,9 +8,9 @@ module.exports = {
     ],
     theme: {
       fontFamily: {
-        heading: ['Oranienbaum', 'serif',]
-        subheading: ['Poppins', 'sans-serif']
-        paragraph: ['Montserrat', 'sans-serif';]
+        heading: ['Oranienbaum', 'serif',],
+        subheading: ['Poppins', 'sans-serif',],
+        paragraph: ['Montserrat', 'sans-serif',],
       },
       extend: {
         colors: {
