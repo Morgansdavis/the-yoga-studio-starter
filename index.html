@@ -6,9 +6,10 @@ banner:
   banner-height: min-h-90
   text-position: items-center
   text-color: text-white
-  banner-image: 'https://placekitten.com/900/600'
+  banner-image: https://placekitten.com/900/600
   small-heading: Welcome to
   heading: The yoga studio
+feature-image-1: https://placekitten.com/900/600
 seo: 
   title: The Yoga Studio in Canguu, Bali
   description: 
@@ -18,9 +19,10 @@ seo:
 ---
 
 <!--------- This is the header banner  ---------------->
-<section class="p-5p" style="background-image: url('https://placekitten.com/900/600')">
-    <div>
-        <span> Welcome to </span>
-        <h1> The yoga studio </h1>
-    </div>
+{% include full-banner.html %}
+
+
+<!--------- This is the Duis Aute section  ---------------->
+<section class="p-5p">
+    {% include image-text.html %}  
 </section>

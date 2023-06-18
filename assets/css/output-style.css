@@ -436,17 +436,27 @@ p {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.button {
+  display: inline-block;
+  --tw-bg-opacity: 1;
+  background-color: rgb(39 39 42 / var(--tw-bg-opacity));
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
-.block {
-  display: block;
-}
-.inline-block {
-  display: inline-block;
+.flex {
+  display: flex;
 }
 .grid {
   display: grid;
@@ -454,8 +464,14 @@ p {
 .min-h-90 {
   min-height: 90vh;
 }
+.min-h-60 {
+  min-height: 60vh;
+}
 .grid-cols-5 {
   grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 .items-center {
   align-items: center;
@@ -468,18 +484,20 @@ p {
   --tw-bg-opacity: 1;
   background-color: rgb(231 229 228 / var(--tw-bg-opacity));
 }
-.bg-yellow-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(250 204 21 / var(--tw-bg-opacity));
+.bg-cover {
+  background-size: cover;
 }
 .bg-center {
   background-position: center;
 }
+.p-5p {
+  padding: 5%;
+}
 .p-8 {
   padding: 2rem;
 }
-.p-5p {
-  padding: 5%;
+.pt-5 {
+  padding-top: 1.25rem;
 }
 .text-white {
   --tw-text-opacity: 1;
