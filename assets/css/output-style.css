@@ -599,6 +599,12 @@ p {
 .h-12 {
   height: 3rem;
 }
+.h-4 {
+  height: 1rem;
+}
+.h-40 {
+  height: 10rem;
+}
 .min-h-60 {
   min-height: 60vh;
 }
@@ -616,6 +622,12 @@ p {
 }
 .w-full {
   width: 100%;
+}
+.w-4 {
+  width: 1rem;
+}
+.w-40 {
+  width: 10rem;
 }
 .max-w-2xl {
   max-width: 42rem;
@@ -741,6 +753,10 @@ p {
 }
 .bg-center {
   background-position: center;
+}
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 .p-10p {
   padding: 10%;
