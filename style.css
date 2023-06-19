@@ -80,7 +80,7 @@
     }
 
     .button  {
-        @apply inline-block px-4 py-2 uppercase tracking-wide bg-pumpkin text-white;
+        @apply inline-block px-4 py-2 uppercase tracking-wide bg-pumpkin border border-pumpkin text-creme hover:bg-creme hover:text-pumpkin;
     }
     
     .bg-image {
@@ -122,7 +122,7 @@
 
 /* Style the featured button  */
 #momence-embed #momence-plugin-host-schedule .momence-host_schedule-session_list-item-booked_button {
-    @apply inline-block px-6 py-2 uppercase tracking-wide bg-pumpkin text-creme rounded-none whitespace-nowrap;
+    @apply inline-block px-4 py-2 uppercase tracking-wide bg-pumpkin border border-pumpkin text-creme hover:bg-creme hover:text-pumpkin rounded-none whitespace-nowrap;
 }
 
 /* Remove the border from the arrows left and right at the top  */
@@ -144,6 +144,10 @@
 /* Hide powered by momence */
 
 #momence-embed #momence-plugin-host-schedule .momence-host_schedule-powered_by_momence {
+    display: none;
+}
+
+#momence-embed #momence-plugin-host-schedule .momence-host_schedule-session_list-item-image {
     display: none;
 }
 
