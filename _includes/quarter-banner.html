@@ -1,11 +1,11 @@
-<section class="p-5p relative min-h-screen sm:min-h-90  bg-cover flex flex-col bg-center justify-center" 
-    style="background-image: url('{{page.banner.banner-image}}')">
-
-    <div>
-        <h1> {{ page.banner.heading}} </h1>
+<section class="relative min-h-screen sm:min-h-90 grid grid-cols-3 justify-center">
+    <div class="p-10p self-center"> 
+        <hr class="relative border-pumpkin w-[33vw] -left-1/3 mb-4"> 
+        <span class="tracking-superwide uppercase"> {{ page.banner.small-heading }} </span>
+        <h1 class="mt-1 -mr-24 relative"> {{ page.banner.heading}} </h1>
     </div>
-    
+    <div class="bg-image col-span-2" style="background-image: url('{{page.banner.banner-image}}');background-position: {{page.banner.image_focus}}">
+    </div>
 
-</div>
 </section>
 
