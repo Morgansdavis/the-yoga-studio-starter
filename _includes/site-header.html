@@ -1,8 +1,22 @@
 <header class="px-5p py-2 sm:flex flex-wrap justify-between items-center absolute z-10 inset-x-0">
     <a href="/index.html" class="font-heading text-3xl mr-5"> The Yoga Studio </a>
-    <nav class="grid gap-2 my-4 sm:block sm:space-x-12 uppercase font-subheading text-lg tracking-widest">
-        <a href="/classes.html"> Our Classes </a>
-        <a href="/schedule.html"> Schedule </a>
-        <a href="/contact.html"> Contact </a>
+
+    <!---------- Hamburger Menu dropdown ------------>
+    <div class="md:hidden absolute top-5p right-5p w-12 h-12  cursor-pointer burger-button">
+        <i class="iconoir-menu p-4"></i>
+        <nav class="burger-menu absolute right-0 top-12 h-0 overflow-hidden bg-pumpkin items-center text-center text-creme md:hidden">
+            <a href="/classes.html"> Classes </a>
+            <a href="/schedule.html"> Schedule </a>
+            <a href="/contact.html"> Contact </a>
+        </nav>
+     </div>
+
+
+    <!---------- Regular Menu ------------>
+
+    <nav class="md:flex gap-2 my-4 uppercase font-subheading text-lg tracking-widest hidden">
+        <a href="/classes.html" class="p-5"> Our Classes </a>
+        <a href="/schedule.html" class="p-5"> Schedule </a>
+        <a href="/contact.html" class="p-5"> Contact </a>
     </nav>
 </header>
