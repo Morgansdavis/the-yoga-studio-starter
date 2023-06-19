@@ -17,7 +17,7 @@ gsap.from( '.from-right', {
 });
 
 
-// Hamburger Menu 
+//////////// Hamburger Menu ///////////////
 
 // First we define our js variables 
 const burgerButton = document.querySelector('.burger-button')
@@ -56,9 +56,10 @@ function toggleBurgerMenu() {
 burgerButton.addEventListener('click', toggleBurgerMenu)
 
 
-// Scrolling /////
+//////////// Scrolling ///////////////
+
 //  first we are finding all of the elements that have a class of scroll-in-from-bottom
-const headings = document.querySelectorAll(".scroll-in-from-bottom")
+const headings = document.querySelectorAll(".scroll-in-from-bottom-with-fade")
 
 
 // for each of them we are going to attach a gsap animation ( like a jekyll for loop just in js :D )
@@ -77,10 +78,10 @@ headings.forEach(object => {
           // now this is the most important line of code its what turns the triggers from a start point in to locking it to the scroll
           scrub: true,
           // last but not least this helps us to visualize the script
-          markers: true,
+          markers: false,
       }
     }).from(object,{
-        bottom:-300,
+        y: 300,
         opacity:0
     })
 })
